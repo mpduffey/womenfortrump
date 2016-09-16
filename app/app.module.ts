@@ -16,12 +16,14 @@ import {ReactiveForm}					from 'modules/reactive-form/reactive-form';
 import {ReactiveFormInput}    from 'modules/reactive-form-input/reactive-form-input';
 import {UserService}          from 'modules/user-service/user-service';
 import {SinglePageScrolling}  from 'modules/single-page-scrolling/single-page-scrolling';
+import {ImgGallery}           from 'modules/img-gallery/img-gallery';
+import {SpsContactSection}    from 'modules/sps-contact-section/sps-contact-section';
 
 
 @NgModule({
   imports:      [BrowserModule, HttpModule, ReactiveFormsModule],
-  exports:      [NavMenu, IntroSection, AboutSection, EventCalendar, EventForm, Modal, ReactiveForm, ReactiveFormInput, SinglePageScrolling],
-  declarations: [AppComponent, NavMenu, IntroSection, AboutSection, EventCalendar, EventForm, Modal, ReactiveForm, ReactiveFormInput, SinglePageScrolling],
+  exports:      [NavMenu, IntroSection, AboutSection, EventCalendar, EventForm, Modal, ReactiveForm, ReactiveFormInput, SinglePageScrolling, SpsContactSection, ImgGallery],
+  declarations: [AppComponent, NavMenu, IntroSection, AboutSection, EventCalendar, EventForm, Modal, ReactiveForm, ReactiveFormInput, SinglePageScrolling, SpsContactSection, ImgGallery],
   providers:    [ModalService, WFTDataService, UserService],
   bootstrap:    [AppComponent]
 })

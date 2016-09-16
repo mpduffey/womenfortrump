@@ -1,33 +1,33 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'tsc' ]
-2 info using npm@3.10.6
-3 info using node@v6.4.0
+2 info using npm@3.10.3
+3 info using node@v6.6.0
 4 verbose run-script [ 'pretsc', 'tsc', 'posttsc' ]
 5 info lifecycle wisc-women-for-trump@1.0.0~pretsc: wisc-women-for-trump@1.0.0
 6 silly lifecycle wisc-women-for-trump@1.0.0~pretsc: no script for pretsc, continuing
 7 info lifecycle wisc-women-for-trump@1.0.0~tsc: wisc-women-for-trump@1.0.0
 8 verbose lifecycle wisc-women-for-trump@1.0.0~tsc: unsafe-perm in lifecycle true
-9 verbose lifecycle wisc-women-for-trump@1.0.0~tsc: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/womenfortrump/node_modules/.bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+9 verbose lifecycle wisc-women-for-trump@1.0.0~tsc: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/womenfortrump/node_modules/.bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin
 10 verbose lifecycle wisc-women-for-trump@1.0.0~tsc: CWD: /home/womenfortrump
 11 silly lifecycle wisc-women-for-trump@1.0.0~tsc: Args: [ '-c', 'tsc' ]
 12 silly lifecycle wisc-women-for-trump@1.0.0~tsc: Returned: code: 2  signal: null
 13 info lifecycle wisc-women-for-trump@1.0.0~tsc: Failed to exec tsc script
 14 verbose stack Error: wisc-women-for-trump@1.0.0 tsc: `tsc`
 14 verbose stack Exit status 2
-14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
 14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
-14 verbose stack     at maybeClose (internal/child_process.js:852:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid wisc-women-for-trump@1.0.0
 16 verbose cwd /home/womenfortrump
 17 error Linux 4.4.11-23.53.amzn1.x86_64
 18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "tsc"
-19 error node v6.4.0
-20 error npm  v3.10.6
+19 error node v6.6.0
+20 error npm  v3.10.3
 21 error code ELIFECYCLE
 22 error wisc-women-for-trump@1.0.0 tsc: `tsc`
 22 error Exit status 2
