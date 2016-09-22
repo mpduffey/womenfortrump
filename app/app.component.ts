@@ -12,7 +12,6 @@ export class AppComponent {
 			{link: "#about", label: "About"},
 			{link: "#calendar", label: "Calendar"},
 			{link: "#gallery", label: "Gallery"},
-			{link: "#membership", label: "Membership"},
 			{link: "https://docs.google.com/forms/d/e/1FAIpQLSfjiqYbdEAR7KZbRGCiiJCGUIsr-QR2tZnSKVl2o5qs0vtaTQ/viewform", label: "Sign-up", external: true},
 			{link: "#contact", label: "Contact"}
 		],
@@ -198,7 +197,7 @@ export class AppComponent {
 				{src: "img/gallery/appleton-const-day-4.jpg"},
 			]
 		},
-		membership:	{
+		membership_off:	{
 			members:	[
 				{img: {src: null}, name: "Candee Arndt", title: "Waukesha"},
 				{img: {src: null}, name: "Joanne Aulenbacher", title: "Shawano"},
