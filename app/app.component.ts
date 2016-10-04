@@ -30,79 +30,20 @@ export class AppComponent {
 		calendar:		{
 			events:				[
 				{
-					date:				new Date(2016,8,21,18,30),
-					endDate:		new Date(2016,8,21,21),
-					name:				"Ladies' Night at the Victory Center",
-					location:		"Select RPW Victory Offices",
-					contact:		"Your Victory Office Field Director"
-				},
-				{
-					date:				new Date(2016,8,21,17,30),
-					endDate:		new Date(2016,8,21,20),
-					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
-				},
-				{
-					date:				new Date(2016,8,26,18,30),
-					endDate:		new Date(2016,8,26,21),
-					name:				"Milwaukee Debate Watching Party",
-					location:		"Amelia’s - 724 East Layton Avenue, Milwaukee, WI",
-					contact:		{
-						name:				"Darlene Wink",
-						phone:			"(414) 553-8551"
-					}
-				},
-				{
-					date:				new Date(2016,8,26,19,30),
-					endDate:		new Date(2016,8,26,22),
-					name:				"Washington County Debate Watching Party",
-					location:		"West Bend GOP Office, 519 Hickory Street, West Bend, WI"
-				},
-				{
-					date:				new Date(2016,8,26),
-					endDate:		new Date(2016,8,26),
-					name:				"Shawano County Debate Watching Party",
-					location:		"The Deer Camp, N4096 County Trunk K, Shawano, WI",
-					contact:		{
-						name:				"Virginia Jesse",
-						email:			"ginnyann03@gmail.com"
-					}
-				},
-				{
-					date:				new Date(2016,8,26,19),
-					endDate:		new Date(2016,8,26,21,30),
-					name:				"North Shore Debate Watching Party",
-					location:		"North Shore Victory Office, 500 West Brown Deere Road, Suite 208, Bayview, WI"
-				},
-				{
-					date:				new Date(2016,8,28,17,30),
-					endDate:		new Date(2016,8,28,20),
-					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
-				},
-				{
-					date:				new Date(2016,8,28,18,30),
-					endDate:		new Date(2016,8,28,21),
-					name:				"Ladies' Night at the Victory Center",
-					location:		"Select RPW Victory Offices",
-					contact:		"Your Victory Office Field Director"
-				},
-				{
-					date:				new Date(2016,9,1,18),
-					endDate:		new Date(2016,9,1,20),
-					name:				"Republican Women of Dane County Meet & Greet US Senator Ron Johnson",
-					location:		"Fitchburg Victory Office, 2976 Triverton Pike Drive, Fitchburg, WI",
-					contact:		{
-						name:				"Jordan Wileman",
-						phone:			"(608) 358-4545",
-						email:			"jwileman@wisgop.org"
-					}
-				},
-				{
 					date:				new Date(2016,9,5,17,30),
 					endDate:		new Date(2016,9,5,20),
 					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
+					location:		"500 West Brown Deer Road, Suite 104, Bayside, WI"
+				},
+				{
+					date:				new Date(2016,9,5,8),
+					endDate:		new Date(2016,9,5,10),
+					name:				"Coffee and Roundtable with Donald Trump, Jr.",
+					location:		"Embassy Suites Brookfield - 1200 S Moreland Rd, Brookfield, WI 53005",
+					contact:		{
+						name:				"Morgan Duffey",
+						email:			"wwft2016@gmail.com"
+					}
 				},
 				{
 					date:				new Date(2016,9,5,18,30),
@@ -115,7 +56,7 @@ export class AppComponent {
 					date:				new Date(2016,9,12,17,30),
 					endDate:		new Date(2016,9,12,20),
 					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
+					location:		"500 West Brown Deer Road, Suite 104, Bayside, WI"
 				},
 				{
 					date:				new Date(2016,9,12,18,30),
@@ -128,7 +69,7 @@ export class AppComponent {
 					date:				new Date(2016,9,19,17,30),
 					endDate:		new Date(2016,9,19,20),
 					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
+					location:		"500 West Brown Deer Road, Suite 104, Bayside, WI"
 				},
 				{
 					date:				new Date(2016,9,19,18,30),
@@ -141,7 +82,7 @@ export class AppComponent {
 					date:				new Date(2016,9,26,17,30),
 					endDate:		new Date(2016,9,26,20),
 					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
+					location:		"500 West Brown Deer Road, Suite 104, Bayside, WI"
 				},
 				{
 					date:				new Date(2016,9,26,18,30),
@@ -154,7 +95,7 @@ export class AppComponent {
 					date:				new Date(2016,10,2,17,30),
 					endDate:		new Date(2016,10,2,20),
 					name:				"Ladies' Night at Milwaukee's North Shore Victory Center",
-					location:		"500 West Brown Deer Road, Suite 104, Bayview, WI"
+					location:		"500 West Brown Deer Road, Suite 104, Bayside, WI"
 				},
 				{
 					date:				new Date(2016,10,2,18,30),
@@ -176,7 +117,7 @@ export class AppComponent {
 				{src: "img/gallery/wi-1.jpg"},
 				{src: "img/gallery/wi-2.jpg"},
 				{src: "img/gallery/wwft-waukesha.jpg"},
-				{src: "img/galleryappleton-const-day-2.jpg"},
+				{src: "img/gallery/appleton-const-day-2.jpg"},
 				{src: "img/gallery/appleton-const-day.jpg"},
 				{src: "img/gallery/appleton-const-say-3.jpg"},
 				{src: "img/gallery/candee-patty-gop.jpg"},
